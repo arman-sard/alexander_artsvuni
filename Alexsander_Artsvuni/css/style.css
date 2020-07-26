@@ -1,0 +1,313 @@
+header {
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
+  -ms-grid-rows: 1fr 2.5fr 1fr;
+  grid-template-rows: 1fr 2.5fr 1fr; }
+  header h2 {
+    padding: 5vw; }
+  header .name {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3; }
+  header .headerWord1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2; }
+  header .headerWord2 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / 4; }
+  header .headerWord3 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / 4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2; }
+  header .headerWord4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / 4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / 4; }
+  header .brakeLine {
+    display: none; }
+  @media only screen and (max-width: 425px) {
+    header .name h2 {
+      font-size: 4vw; }
+      header .name h2 .brakeLine {
+        display: block; } }
+
+.mainDescription {
+  background-color: #000;
+  color: #fff;
+  padding: 15vw 8vw 0; }
+  .mainDescription p {
+    margin: 1vw 0 5vw;
+    width: 25vw;
+    line-height: 2vw; }
+  .mainDescription .BrowserVideo {
+    text-align: center;
+    background-image: url("/images/Farfetch.com.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 29vw; }
+    .mainDescription .BrowserVideo .deskTop {
+      position: relative;
+      top: 9.6vw;
+      width: 80%; }
+    .mainDescription .BrowserVideo .mobile {
+      display: none; }
+  @media only screen and (max-width: 425px) {
+    .mainDescription {
+      padding: 15vw 9vw 10vw; }
+      .mainDescription h1 {
+        padding: 0;
+        font-size: 7vw; }
+      .mainDescription p {
+        font-size: 3.5vw;
+        padding: 3vw 0 0;
+        width: 70vw;
+        line-height: 4vw; }
+      .mainDescription .BrowserVideo {
+        background-image: url("/images/Group 15.png");
+        height: 81vw; }
+        .mainDescription .BrowserVideo .deskTop {
+          display: none; }
+        .mainDescription .BrowserVideo .mobile {
+          display: inline-block;
+          position: relative;
+          text-align: center;
+          top: 20vw;
+          width: 95%; } }
+
+.mainSecondDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #efefef;
+  padding-top: 10vw; }
+  .mainSecondDescription .iphone {
+    position: relative;
+    bottom: -4vw;
+    padding-left: 17vw; }
+    .mainSecondDescription .iphone video {
+      width: 19.1vw;
+      border-radius: 2vw; }
+    .mainSecondDescription .iphone .iphoneBody {
+      width: 21vw;
+      position: relative;
+      left: -20.2vw; }
+  .mainSecondDescription .mainSecondDescriptionText {
+    padding: 15vw 0 0 0; }
+  @media only screen and (max-width: 425px) {
+    .mainSecondDescription {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      padding: 0 5vw; }
+      .mainSecondDescription .iphone {
+        padding-left: 5vw; }
+        .mainSecondDescription .iphone video {
+          width: 39vw;
+          border-radius: 2vw; }
+        .mainSecondDescription .iphone .iphoneBody {
+          width: 43vw;
+          position: relative;
+          left: -41vw; } }
+
+.mainThirdDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding-top: 10vw; }
+  .mainThirdDescription .mainThirdDescriptionText {
+    padding: 22vw 10vw 0 10vw; }
+  .mainThirdDescription .iphone {
+    position: relative;
+    bottom: -4vw; }
+    .mainThirdDescription .iphone .iphoneBodyPic {
+      width: 19.1vw;
+      border-radius: 2vw;
+      position: relative;
+      left: 11.5vw; }
+    .mainThirdDescription .iphone .iphoneBody {
+      width: 21vw;
+      position: relative;
+      left: -9vw; }
+  @media only screen and (max-width: 425px) {
+    .mainThirdDescription {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+
+.mainForthDescription {
+  background-color: #efefef;
+  padding-top: 5vw; }
+  .mainForthDescription .mainForthDescriptionText {
+    position: relative;
+    bottom: -9vw;
+    padding: 0 10vw; }
+  .mainForthDescription .mainForthDescriptionParagraph {
+    padding-left: 10vw; }
+    .mainForthDescription .mainForthDescriptionParagraph p {
+      position: relative;
+      bottom: -10vw;
+      margin: 0; }
+    .mainForthDescription .mainForthDescriptionParagraph .mainForthDescriptionBackground {
+      padding: 0 5vw 65vw;
+      background-image: url("../images/mobileUiKitBackground.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat; }
+
+.mainFifthDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding-top: 10vw; }
+  .mainFifthDescription .iphone {
+    position: relative;
+    bottom: -4vw;
+    padding-left: 10vw; }
+    .mainFifthDescription .iphone video {
+      width: 19.1vw;
+      border-radius: 2vw; }
+    .mainFifthDescription .iphone .iphoneBody {
+      width: 21vw;
+      position: relative;
+      left: -20.3vw; }
+  .mainFifthDescription .mainFifthDescriptionText {
+    padding: 15vw 0 0 15vw; }
+  @media only screen and (max-width: 425px) {
+    .mainFifthDescription {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse; } }
+
+.mainSixthDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #efefef;
+  padding-top: 15vw; }
+  .mainSixthDescription .mainSixthDescriptionText {
+    padding: 19vw 0 0 10vw; }
+  .mainSixthDescription .iphone {
+    position: relative;
+    bottom: -4vw; }
+    .mainSixthDescription .iphone video {
+      width: 19.1vw;
+      border-radius: 2vw; }
+    .mainSixthDescription .iphone .iphoneBody {
+      width: 21vw;
+      position: relative;
+      left: 20vw; }
+  @media only screen and (max-width: 425px) {
+    .mainSixthDescription {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+
+.mainSeventhDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding-top: 10vw; }
+  .mainSeventhDescription .iphone {
+    position: relative;
+    bottom: -5vw;
+    padding-left: 10vw; }
+    .mainSeventhDescription .iphone video {
+      width: 19.1vw;
+      border-radius: 2vw; }
+    .mainSeventhDescription .iphone .iphoneBody {
+      width: 21vw;
+      position: relative;
+      left: -20.3vw; }
+  .mainSeventhDescription .mainSeventhDescriptionText {
+    padding: 15vw 0 0 15vw; }
+  @media only screen and (max-width: 425px) {
+    .mainSeventhDescription {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse; } }
+
+.mainEighthDescription {
+  background-color: #efefef;
+  padding: 20vw 10vw 10vw; }
+  .mainEighthDescription .videoBody {
+    padding: 5vw; }
+
+.mainNinthDescription {
+  color: #fff;
+  background-color: #000;
+  padding: 20vw 5vw 10vw; }
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  list-style-type: none;
+  font-family: Grot-Bold, sans-serif; }
+
+@font-face {
+  font-family: "Grot-Bold";
+  src: url("../fonts/GrotBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+body .container {
+  margin: auto;
+  padding: 0 2vw; }
+  @media only screen and (max-width: 425px) {
+    body .container {
+      padding: 0; } }
+
+p {
+  font-size: 1.5vw;
+  margin: 1vw 0 5vw;
+  width: 25vw;
+  line-height: 2vw; }
+  @media only screen and (max-width: 425px) {
+    p {
+      font-size: 4vw;
+      padding: 0 5vw;
+      width: 100%;
+      line-height: 5.5vw; } }
+
+h1 {
+  font-size: 3vw; }
+  @media only screen and (max-width: 425px) {
+    h1 {
+      padding: 5vw;
+      font-size: 7vw; } }
+
+h2 {
+  font-size: 1.5vw; }

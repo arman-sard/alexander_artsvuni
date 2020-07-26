@@ -1,0 +1,15 @@
+@mixin media($size) {
+  @if $size == smart {
+    @media only screen and (max-width: 425px) {
+      @content
+    }
+  } @else if $size == table {
+    @media only screen and (min-width: 426px) and (max-width: 960px) {
+      @content
+    }
+  } @else if $size == pc {
+    @media only screen and (min-width: 960px){
+      @content
+    }
+  }
+}
